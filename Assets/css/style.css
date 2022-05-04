@@ -237,32 +237,31 @@ footer li a:hover {
 
 .titulo-newsletter h2 {
   text-align: left;
-  font-family: 'Tangerine' , monospace;
-  font-size: 40px;
-  border-top: #73726D solid 1px;
+  font-family: "Tangerine", monospace;
+  font-size: 55px;
   margin-top: 45px;
   padding-top: 30px;
   padding-bottom: 25px;
-  color: #575442;
+  color: #383636;
 }
 
 .titulo-newsletter h3 {
   text-align: left;
-  font-family: 'Tangerine' , monospace;
-  font-size: 30px;
+  font-family: "Tangerine", monospace;
+  font-size: 40px;
   margin-top: 20px;
   padding-bottom: 25px;
-  color: #575442;
+  color: #383636;
 }
 
 .form-newsletter {
   width: 50%;
   margin: auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .form-newsletter label {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .form-newsletter input, .form-newsletter select, .form-newsletter textarea {
@@ -273,7 +272,7 @@ footer li a:hover {
 
 .form-newsletter textarea {
   width: 350px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .form-newsletter select {

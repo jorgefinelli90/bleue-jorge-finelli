@@ -1,29 +1,29 @@
 .titulo-newsletter {
     h2{
     text-align: left;
-    font-family:  'Tangerine' , monospace;
-    font-size: 40px;
-    border-top: #73726D solid 1px;
+    font-family:  $TipografiaTerciaria ;
+    font-size: 55px;
     margin-top: 45px;
     padding-top: 30px;
     padding-bottom: 25px;
-    color: rgb(87, 84, 66);
+    color: $ColorTextos;
     }
     h3{
         text-align: left;
-        font-family:  'Tangerine' , monospace;
-        font-size: 30px;
+        font-family:  $TipografiaTerciaria ;
+        font-size: 40px;
         margin-top: 20px;
         padding-bottom: 25px;
-        color: rgb(87, 84, 66);
+        color: $ColorTextos;
     }
 }
 .form-newsletter{
     width: 50%;
     margin: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: $TipografiaSecundaria ;
     label{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: $TipografiaSecundaria ;
+        
     }
     input, select, textarea{
         background-color: rgba(252, 250, 240, 0.861);
@@ -32,7 +32,7 @@
     }
     textarea{
         width: 350px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: $TipografiaSecundaria ;
     }
     select{
         width: 270px;
