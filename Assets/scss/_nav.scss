@@ -1,0 +1,39 @@
+body{
+    background-color: $ColorPrimario  ;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    height: 120px;
+    width: 100%;
+    ul li a{
+        margin: 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family:  $TipografiaPrimaria;
+        font-weight: 500;
+    }
+    ul li a:hover{
+        transform: scale(1.2);
+        transition: transform 1s;
+    }
+}
+#navbarSupportedContent{
+    flex-grow: inherit;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 70px;
+    transform: scale(1.1);
+    transition: transform 8s; 
+}
+.navbar-collapse{
+    z-index: 10;
+    background-color: $ColorNav;
+    text-align:center;
+    font-weight:900;
+}

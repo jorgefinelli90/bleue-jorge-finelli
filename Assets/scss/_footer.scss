@@ -1,0 +1,92 @@
+footer{
+    color:$ColorPrimario;
+    background-color: $ColorSecundario ;
+    font-family: $TipografiaPrimaria;
+    font-weight: 350px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    li{
+        font-size: 15px;
+        margin: 6px;
+        text-align:center;
+        list-style: none;
+    }
+    li a {
+        text-decoration: none;
+        color: $ColorPrimario ;
+    }
+    li a:hover{
+        border: 10px;
+        color: $ColorTextos ;
+    }
+}
+.newsletter{
+    width: 30% ;
+    margin-top: 50px ;
+    h4{
+        font-family: $TipografiaTerciaria;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 500;
+        color: white;
+    }
+    h5{
+        padding-top: 15px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    form{
+        margin-left: 28%;
+        margin-top: 25px;
+    }
+}
+
+.categoriasfooter{
+    margin-top: 70px;
+}
+
+.email input{
+    text-align: center;
+    padding: 1px;
+    width: 220px 150px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    border: 0px;
+}
+.redes{
+    margin-top: 50px ; 
+    h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    h3{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 350;
+    }
+    img{
+        width: 30px;
+    }
+}
+
+.iconosredes{
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.ir-arriba {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    float: right;
+    a{
+        transform: rotate(-90deg);
+        text-decoration: none;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,31 @@
+#buzos, #sweaters, #camperas{
+    color: $ColorSecundario;
+    margin-top: 40px;
+    font-family: $TipografiaPrimaria ;
+    font-weight: 900;
+    text-shadow: white 1px 2px 5px;
+}
+aside h5{
+    color:$ColorTextos;
+    margin-top: 50px;
+    font-family: $TipografiaPrimaria ;
+    font-weight: 700;
+    text-shadow: #5e5e5e 5px 1px 20px;
+}
+.descripcion{
+    color:rgb(56, 54, 54);
+    margin-top: 30px;
+    font-family:$TipografiaSecundaria;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.foto-prod-home{
+    transition: transform .9s; 
+    border-radius: 15px;
+    box-shadow:#73726D 5px 5px  15px 1px;
+}
+
+.foto-prod-home:hover{
+    transform: scale(1.04);
+}

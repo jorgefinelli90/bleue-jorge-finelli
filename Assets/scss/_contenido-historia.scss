@@ -1,0 +1,24 @@
+.empresa-titulo{
+    text-align: center;
+    font-family:  'Tangerine' , monospace;
+    font-size: 45px;
+    border-top: #73726D solid 1px;
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: rgb(87, 84, 66);
+}
+.empresa-descripcion{
+    width: 80%;
+    margin: auto;
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:start;
+    }
+    h2, h4{
+        color: #73726D;
+        font-family:  'Tangerine' , monospace;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+}
