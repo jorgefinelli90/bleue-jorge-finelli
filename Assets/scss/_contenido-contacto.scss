@@ -40,6 +40,12 @@
     input{
         width: 218px;
     }
+    .btn{
+        color: $ColorPrimario;
+        background-color: $ColorSecundario;
+        border-radius: 10px solid 10px $ColorSecundario;
+        margin: 15px 0px 15px 0px ;
+    }
 }
 .form--newsletter{
     width: 200px;

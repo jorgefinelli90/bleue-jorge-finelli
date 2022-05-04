@@ -42,7 +42,7 @@
           <h3 class="text-center">Dejanos tus datos y un Assistant Shopper se comunicara con vos!</h3>
         </div>
 
-        <section class="container-fluid pt-4">
+        <section class="container-fluid pt-4 form-newsletter">
             <section class="row justify-content-around">
                 <aside class="col-lg-4 col-md-4 col-xs-1">
                     <div class="datos-newsletter">
@@ -51,15 +51,15 @@
                     </div>
                     <div class="datos-newsletter">
                         <label for="email-news" class="form-label">Correo Electronico</label>
-                        <input type="email" class="form-control" id="email-news" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="email-news" placeholder="nombre@correo.com">
                     </div>
                     <div class="datos-newsletter">
-                        <label for="Estadocivil" class="form-label">Estado civil:</label>
+                        <label for="Estadocivil" class="form-label">Como nos conociste?:</label>
                         <input class="form-control" list="datalistOptions" id="Estadocivil" placeholder="Despliegue aqui">
                         <datalist id="datalistOptions">
-                            <option value="Soltero">
-                            <option value="Casado">
-                            <option value="Otro">
+                            <option value="Por un amigo">
+                            <option value="Redes sociales">
+                            <option value="Reviews de moda">
                         </datalist>
                     </div>
                     <div class="datos-newsletter">
@@ -68,6 +68,9 @@
                     <div class="form-check form-switch datos-newsletter">
                         <input class="form-check-input" type="checkbox" role="switch" id="newsletter">
                         <label class="form-check-label" for="flexSwitchCheckDefault">Deseas suscribirte a nuestro newsletter?</label>
+                    </div>
+                    <div class="datos-newsletter">
+                        <button class="btn">Enviar</button>
                     </div>
                     
                 </aside>
