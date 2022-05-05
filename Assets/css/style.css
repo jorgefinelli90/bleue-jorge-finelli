@@ -369,10 +369,8 @@ footer li a:hover {
 }
 
 .card-body {
-  background-color: white;
-}
-
-.body-shoes {
-  background-color: white;
+  background-color: #FFFDF1;
+  border-radius: 15px;
+  margin: 10px;
 }
 /*# sourceMappingURL=style.css.map */
