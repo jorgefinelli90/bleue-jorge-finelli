@@ -87,8 +87,8 @@ aside h5 {
   transition: transform .9s;
   transition: transform .9s, -webkit-transform .9s;
   border-radius: 15px;
-  -webkit-box-shadow: #73726D 5px 5px  15px 1px;
-          box-shadow: #73726D 5px 5px  15px 1px;
+  -webkit-box-shadow: #73726D 5px 5px 15px 1px;
+          box-shadow: #73726D 5px 5px 15px 1px;
 }
 
 .foto-prod-home:hover {
@@ -227,14 +227,14 @@ footer li a:hover {
   text-align: start;
 }
 
-.empresa-descripcion h2, .empresa-descripcion h4 {
+.empresa-descripcion h1, .empresa-descripcion h4 {
   color: #73726D;
   font-family: "Tangerine", monospace;
   font-size: 35px;
   margin-top: 15px;
 }
 
-.titulo-newsletter h2 {
+.titulo-newsletter h1 {
   text-align: left;
   font-family: "Tangerine", monospace;
   font-size: 55px;
@@ -303,7 +303,7 @@ footer li a:hover {
   margin: 0px 0px 80px 0px;
 }
 
-.page-sec-titulo h2 {
+.page-sec-titulo h1 {
   text-align: center;
   margin-top: 30px;
   font-size: 50px;
@@ -357,20 +357,43 @@ footer li a:hover {
   margin: 0px 5px;
 }
 
+.Titulo-shoes {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Tangerine", monospace;
+  font-size: 75px;
+}
+
 .card-title {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 900px;
+  color: #383636;
 }
 
 .card-text {
   font-family: "Roboto Condensed", sans-serif;
+  color: #73726D;
   font-size: 12px;
   font-weight: 200px;
 }
 
 .card-body {
-  background-color: #FFFDF1;
+  background-color: white;
   border-radius: 15px;
   margin: 10px;
+  -webkit-box-shadow: -2px 0.5px 18px -4px rgba(0, 0, 0, 0.83);
+          box-shadow: -2px 0.5px 18px -4px rgba(0, 0, 0, 0.83);
+}
+
+.card-img-top {
+  border-radius: 100%;
+  width: 33%;
+  -webkit-box-shadow: -2px 0.1px 18px -4px rgba(0, 0, 0, 0.83);
+          box-shadow: -2px 0.1px 18px -4px rgba(0, 0, 0, 0.83);
+}
+
+.card {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */

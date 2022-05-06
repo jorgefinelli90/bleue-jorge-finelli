@@ -6,13 +6,13 @@
 }
 
 .page-sec-titulo{
-    h2{
+    h1{
         text-align: center;
         margin-top: 30px;
         font-size: 50px;
         font-family:$TipografiaSecundaria;
-        color: #73726D;
-        border-top: #73726D solid 1px;
+        color: $ColorSecundario;
+        border-top: $ColorSecundario solid 1px;
         padding-top: 100px;
     }
     h3{

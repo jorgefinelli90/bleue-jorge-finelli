@@ -1,14 +1,33 @@
+.Titulo-shoes{
+    margin-top: 50px;
+    text-align: center;
+    font-family: $TipografiaTerciaria;
+    font-size: 75px;
+}
 .card-title{
     font-family: $TipografiaSecundaria;
     font-weight: 900px;
+    color: $ColorTextos;
 }
 .card-text{
     font-family: $TipografiaSecundaria;
+    color: $ColorSecundario;
     font-size: 12px;
     font-weight: 200px;
 }
 .card-body{
-    background-color: $ColorPrimario;
+    background-color: white;
     border-radius: 15px;
     margin: 10px;
+    box-shadow: -2px 0.5px 18px -4px rgba(0,0,0,0.83); 
+}
+.card-img-top{
+    border-radius:  100%;
+    width: 33%;
+    box-shadow: -2px 0.1px 18px -4px rgba(0,0,0,0.83); 
+}
+
+.card{
+    margin-bottom: 30px;
+    margin-top: 30px ;
 }
