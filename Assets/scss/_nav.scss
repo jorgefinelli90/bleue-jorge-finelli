@@ -37,3 +37,20 @@ nav{
     text-align:center;
     font-weight:900;
 }
+
+@media (max-width: 858px){
+    nav{
+        ul li a{
+            margin: 10px;
+            font-size: 25px;
+            text-transform: uppercase;
+            font-family:  $TipografiaPrimaria;
+            font-weight: 500;
+        }
+        .logo{
+            height: 60px;
+            transform: scale(1.1);
+            transition: transform 8s; 
+        }
+    }
+}

@@ -57,6 +57,25 @@ nav ul li a:hover {
   font-weight: 900;
 }
 
+@media (max-width: 858px) {
+  nav ul li a {
+    margin: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+  }
+  nav .logo {
+    height: 60px;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: -webkit-transform 8s;
+    transition: -webkit-transform 8s;
+    transition: transform 8s;
+    transition: transform 8s, -webkit-transform 8s;
+  }
+}
+
 #buzos, #sweaters, #camperas {
   color: #73726D;
   margin-top: 40px;
@@ -94,6 +113,12 @@ aside h5 {
 .foto-prod-home:hover {
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
+}
+
+@media (max-width: 575px) {
+  .foto-prod-home-sec {
+    display: none;
+  }
 }
 
 footer {

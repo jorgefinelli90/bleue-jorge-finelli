@@ -29,3 +29,9 @@ aside h5{
 .foto-prod-home:hover{
     transform: scale(1.04);
 }
+
+@media (max-width: 575px){
+    .foto-prod-home-sec{
+        display: none;
+    }
+}
