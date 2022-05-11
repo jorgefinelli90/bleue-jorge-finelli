@@ -7,7 +7,8 @@ html {
 
 nav {
   height: 120px;
-  width: 100%; }
+  width: 100%;
+  background-color: #eef2f6; }
   nav ul li a {
     margin: 10px;
     font-size: 16px;
@@ -32,9 +33,17 @@ nav {
 
 .navbar-collapse {
   z-index: 10;
-  background-color: #F8F9FA;
+  background-color: #eef2f6;
   text-align: center;
   font-weight: 900; }
+  .navbar-collapse a {
+    font-size: 15px; }
+  .navbar-collapse a:hover {
+    transform: scale(1.5);
+    transition: transform 1s; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;.."); }
 
 @media (max-width: 858px) {
   nav {
@@ -59,7 +68,7 @@ nav {
 
 aside h5 {
   color: #383636;
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: "Source Code Pro", monospace;
   font-weight: 700;
   text-shadow: #5e5e5e 5px 1px 20px; }
@@ -235,17 +244,17 @@ footer {
   margin: 0px 0px 80px 0px; }
 
 .page-sec-titulo h1 {
-  text-align: center;
   margin-top: 30px;
   font-size: 50px;
+  text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   color: #73726D;
   border-top: #73726D solid 1px;
   padding-top: 100px; }
 
 .page-sec-titulo h3 {
-  text-align: center;
   font-size: 50px;
+  text-align: center;
   font-family: "Tangerine", monospace;
   padding-top: 10px;
   padding-bottom: 50px; }
@@ -277,6 +286,12 @@ footer {
   width: 33.3%;
   margin: 0px 5px; }
 
+.card-title, .card-text {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900px;
+  color: #73726D; }
+
 .Titulo-shoes {
   margin-top: 50px;
   text-align: center;
@@ -284,13 +299,10 @@ footer {
   font-size: 75px; }
 
 .card-title {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 900px;
-  color: #383636; }
+  color: #383636;
+  font-weight: 500; }
 
 .card-text {
-  font-family: "Roboto Condensed", sans-serif;
-  color: #73726D;
   font-size: 12px;
   font-weight: 200px; }
 

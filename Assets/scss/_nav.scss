@@ -4,9 +4,12 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
+
 nav{
     height: 120px;
     width: 100%;
+    background-color: $ColorNav;
     ul li a{
         margin: 10px;
         font-size: 16px;
@@ -36,7 +39,22 @@ nav{
     background-color: $ColorNav;
     text-align:center;
     font-weight:900;
+    a{
+        font-size: 15px;
+        
+    
+    }
+    a:hover{
+        transform: scale(1.5);
+        transition: transform 1s; 
+    }
 }
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+}
+  
+  
+
 
 @media (max-width: 858px){
     nav{
@@ -54,5 +72,10 @@ nav{
             transition: transform 8s; 
         }
     }
+    
+
+
+
+
 }
 

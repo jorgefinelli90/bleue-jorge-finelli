@@ -1,3 +1,10 @@
+%sombras-color {
+    text-align: center;
+    font-family: $TipografiaSecundaria;
+    font-weight: 900px;
+    color: $ColorSecundario;
+  }
+
 .Titulo-shoes{
     margin-top: 50px;
     text-align: center;
@@ -5,13 +12,12 @@
     font-size: 75px;
 }
 .card-title{
-    font-family: $TipografiaSecundaria;
-    font-weight: 900px;
+    @extend %sombras-color;
     color: $ColorTextos;
+    font-weight: 500;
 }
 .card-text{
-    font-family: $TipografiaSecundaria;
-    color: $ColorSecundario;
+    @extend %sombras-color;
     font-size: 12px;
     font-weight: 200px;
 }
