@@ -35,3 +35,23 @@ aside h5{
         display: none;
     }
 }
+
+@media (max-width: 575px){
+    #buzos, #sweaters, #camperas{
+        margin-top: 0px;
+        font-size: 19px;
+        color: $ColorSecundario;
+        font-family: $TipografiaPrimaria ;
+        font-weight: 900;
+    }
+
+    #carousel-desk{
+        display: none;
+    }
+}
+
+@media (min-width: 575px){
+    #carousel-mobi{
+        display: none;
+    }
+}
