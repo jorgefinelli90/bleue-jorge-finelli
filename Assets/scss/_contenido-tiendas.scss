@@ -16,3 +16,12 @@
     width: 33.3%;
     margin: 0px 5px;
 }
+
+@media (max-width: 575px){
+    .Titulo-shoes{
+        margin-top: 15px;
+        text-align: center;
+        font-family: $TipografiaTerciaria;
+        font-size: 50px;
+    }
+}

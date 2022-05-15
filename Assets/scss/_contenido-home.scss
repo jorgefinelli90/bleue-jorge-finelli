@@ -1,15 +1,16 @@
 #buzos, #sweaters, #camperas{
     color: $ColorSecundario;
     margin-top: 40px;
+    color: $ColorSecundario;
     font-family: $TipografiaPrimaria ;
-    font-weight: 900;
-    text-shadow: white 1px 2px 5px;
+    font-weight: 300;
+    text-shadow: -1px -5px 5px rgba(0,0,0,0.28);
 }
 aside h5{
     color: map-get($txt-home-tarj , color-fuente);
     margin-top: map-get($txt-home-tarj , margen-arriba );
     font-family: $TipografiaPrimaria ;
-    font-weight: 700;
+    font-weight: 500;
     text-shadow: #5e5e5e 5px 1px 20px;
 }
 .descripcion{
@@ -22,7 +23,7 @@ aside h5{
 
 .foto-prod-home{
     transition: transform .9s; 
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow:$ColorSecundario 5px 5px  15px 1px;
 }
 
@@ -39,10 +40,19 @@ aside h5{
 @media (max-width: 575px){
     #buzos, #sweaters, #camperas{
         margin-top: 0px;
-        font-size: 19px;
+        font-size: 39px;
         color: $ColorSecundario;
         font-family: $TipografiaPrimaria ;
-        font-weight: 900;
+        font-weight: 200;
+        text-shadow: -1px -5px 5px rgba(0,0,0,0.28);
+    }
+
+    aside h5{
+        color: map-get($txt-home-tarj , color-fuente);
+        margin-top: map-get($txt-home-tarj , margen-arriba );
+        font-family: $TipografiaPrimaria ;
+        font-weight: 500;
+        text-shadow: -1px -5px 5px rgba(0,0,0,0.28);
     }
 
     #carousel-desk{
