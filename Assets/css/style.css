@@ -280,6 +280,13 @@ footer li a:hover {
   font-weight: 700;
 }
 
+@media (max-width: 575px) {
+  .newsletter form {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+}
+
 .empresa-titulo {
   text-align: center;
   font-family: "Tangerine", monospace;
