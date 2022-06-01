@@ -15,19 +15,10 @@ Desarrollar un sitio funcional con distintos
 ## Características
 
 * Navegar por el catálogo de productos.
-* Filtrar por categorías.
-* Hacer click en cualquiera de los productos para acceder a su información detallada y seleccionar una cantidad para agregar al carrito.
-* Si no hay stock del producto, no se podrá agregar al carrito.
-* Ver la cantidad total de productos en el ícono del carrito.
-* Ver cada producto y su cantidad, el precio total y las cuotas de la compra en el carrito.
-* Eliminar productos individualmente o vaciar el carrito.
-* Comprar o agregar otros productos antes de iniciar la compra.
-* Completar los datos del cliente y generar un número de orden.
-* Captar leads con el newsletter.
 * Comunicarse por el formulario de contacto.
 
 ## Construido con
-- JavaScript y HTML
+- HTML CSS Bootstrap & SASS
 
 - [Sass](https://sass-lang.com/)/CSS
 
